@@ -1,9 +1,9 @@
 {
-  "short_name": "SwimCoach",
-  "name": "Elite Swim-Bike Coach",
+  "short_name": "Swim Coach",
+  "name": "Swim Coach: 100m Elite",
   "icons": [
     {
-      "src": "https://cdn-icons-png.flaticon.com/512/3144/3144560.png",
+      "src": "icon-512.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any maskable"
@@ -14,5 +14,5 @@
   "display": "standalone",
   "scope": "./",
   "theme_color": "#00d4ff",
-  "description": "Elite HIIT training for 100m Breaststroke."
+  "description": "High-torque HIIT for competitive swimmers."
 }
