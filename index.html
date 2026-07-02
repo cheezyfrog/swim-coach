@@ -47,6 +47,7 @@
         <option value="raceReality">Race Reality (1:20 Sim)</option>
         <option value="stackers">30/30/30 Stackers</option>
         <option value="redline">VO2 Max "Redline"</option>
+        <option value="vo2MaxRun">VO2 Max Run (4x4 Fartlek)</option>
     </select>
 
     <div class="timer-display" id="intervalTimer">05:00</div>
@@ -118,6 +119,10 @@
         redline: { goal: "5-8", intervals: [
             { name: "Standing Power", duration: 60, zone: "Z5: Redline", hr: "195-210", race: "Engine Growth", class: "zone-5" },
             { name: "Full Recovery", duration: 60, zone: "Z2: Recovery", hr: "150-165", race: "Oxygen Recovery", class: "zone-2", allowCD: true }
+        ]},
+        vo2MaxRun: { goal: "4", intervals: [
+            { name: "VO2 MAX RUN", duration: 240, zone: "Z5: 90-95% EFFORT", hr: "190-205", race: "WESTERNS TIME - DON'T SIT DOWN!", class: "zone-5" },
+            { name: "RECOVERY WALK", duration: 180, zone: "Z2: RECOVER", hr: "140-155", race: "Lower the Heart Rate", class: "zone-2", allowCD: true }
         ]}
     };
 
